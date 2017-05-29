@@ -1,6 +1,6 @@
 call plug#begin('~/.config/nvim/plugged')
 Plug 'croaker/mustang-vim'
-Plug 'vim-syntastic/syntastic'
+Plug 'neomake/neomake'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
