@@ -3,6 +3,7 @@ Plug 'croaker/mustang-vim'
 Plug 'vim-syntastic/syntastic'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'tpope/vim-fugitive'
+Plug 'vim-airline/vim-airline'
 call plug#end()
 
 "" Key Remappings
