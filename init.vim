@@ -1,5 +1,6 @@
 call plug#begin('~/.config/nvim/plugged')
 Plug 'croaker/mustang-vim'
+Plug 'vim-syntastic/syntastic'
 call plug#end()
 
 "" Key Remappings
