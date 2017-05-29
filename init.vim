@@ -35,3 +35,4 @@ nnoremap <F1> :set nonumber!<CR>    "Number toggle
 
 " Pick a colorscheme
 colorscheme mustang
+let g:airline_theme='base16_chalk'
