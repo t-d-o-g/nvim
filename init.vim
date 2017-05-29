@@ -1,6 +1,6 @@
 call plug#begin('~/.config/nvim/plugged')
 Plug 'croaker/mustang-vim'
-Plug 'neomake/neomake'
+Plug 'neomake/neomake' | Plug 'dojoteef/neomake-autolint'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
