@@ -9,6 +9,9 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'janko-m/vim-test'
 call plug#end()
 
+"" Enable code autocomplete
+call deoplete#enable()
+
 "" Key Remappings
 inoremap kj <Esc>
 nmap <C-h> <C-w>h
