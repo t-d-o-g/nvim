@@ -1,5 +1,6 @@
 call plug#begin('~/.config/nvim/plugged')
 Plug 'croaker/mustang-vim'
+Plug 'cocopon/iceberg.vim'
 Plug 'w0rp/ale'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'tpope/vim-fugitive'
@@ -36,8 +37,8 @@ set pastetoggle=<F2>    "Insert mode (Paste) toggle
 set wildmode=full
 nnoremap <F1> :set nonumber!<CR>    "Number toggle
 
-
-
 " Pick a colorscheme
-colorscheme mustang
-let g:airline_theme='base16_chalk'
+"" colorscheme mustang
+"" let g:airline_theme='base16_chalk'
+colorscheme iceberg 
+let g:airline_theme='iceberg'
