@@ -18,20 +18,20 @@ call deoplete#enable()
 
 "" Key Remappings
 inoremap kj <Esc>
-nmap <C-h> <C-w>h
-nmap <C-j> <C-w>j
-nmap <C-k> <C-w>k
-nmap <C-l> <C-w>w
-nmap <C-_> <C-w>_
-nmap <C-bar> <C-w>|
-nmap <C-=> <C-w>=
-nmap <C-R> <C-w>R
-nmap <C-T> <C-w>T
-nmap <C-o> <C-w>o
-nnoremap <M-Right> <C-W><Right>
-nnoremap <M-Left> <C-W><Left>
-nnoremap <M-Up> <C-W><Up>
-nnoremap <M-Down> <C-W><Down>
+nmap ˙ <C-w>h    "Buffer Left 
+nmap ∆ <C-w>j    "Buffer Down
+nmap ˚ <C-w>k    "Buffer Up
+nmap ¬ <C-w>w    "Buffer Cycle Right 
+nmap – <C-w>_    "Buffer Max Height (- for shift key consistency)
+nmap » <C-w>\|   "Buffer Max Width
+nmap ≠ <C-w>=    "Buffer Equal Size
+nmap ‰ <C-w>R    "Buffer Rotate
+nmap ˇ <C-w>T    "Buffer New Tab 
+nmap ø <C-w>o    "Close All But Current
+nmap ¯ <C-w>10<  "Decrease width 10 lines
+nmap ˘ <C-w>10>  "Increase width 10 lines
+nmap — <C-w>10-  "Decrease height 10 lines (_ for shift key consistency)
+nmap ± <C-w>10+  "Increase height 10 lines
 
 " Settings
 set splitbelow
