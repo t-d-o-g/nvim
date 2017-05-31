@@ -9,6 +9,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'janko-m/vim-test'
 Plug 'pangloss/vim-javascript'
+Plug 'moll/vim-node'
 call plug#end()
 
 "" Enable code autocomplete
