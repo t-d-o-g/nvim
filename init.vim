@@ -10,6 +10,7 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'janko-m/vim-test'
 Plug 'pangloss/vim-javascript'
 Plug 'moll/vim-node'
+Plug 'mklabs/split-term.vim'
 call plug#end()
 
 "" Enable code autocomplete
