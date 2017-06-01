@@ -18,27 +18,27 @@ call deoplete#enable()
 
 "" Key Remappings
 inoremap kj <Esc>
-nmap ˙ <C-w>h    "Buffer Left 
-nmap ∆ <C-w>j    "Buffer Down
-nmap ˚ <C-w>k    "Buffer Up
-nmap ¬ <C-w>w    "Buffer Cycle Right 
-nmap – <C-w>_    "Buffer Max Height (- for shift key consistency)
-nmap » <C-w>\|   "Buffer Max Width
-nmap ≠ <C-w>=    "Buffer Equal Size
-nmap ‰ <C-w>R    "Buffer Rotate
-nmap ˇ <C-w>T    "Buffer New Tab 
-nmap ø <C-w>o    "Close All But Current
-nmap ¯ <C-w>10<  "Decrease width 10 lines
-nmap ˘ <C-w>10>  "Increase width 10 lines
-nmap — <C-w>10-  "Decrease height 10 lines (_ for shift key consistency)
-nmap ± <C-w>10+  "Increase height 10 lines
+nnoremap <F1> :set nonumber!<CR>    "Number toggle
+nmap ewh <C-w>h    "Buffer Left 
+nmap ewj <C-w>j    "Buffer Down
+nmap ewk <C-w>k    "Buffer Up
+nmap ewl <C-w>w    "Buffer Cycle Right
+nmap ew_ <C-w>_    "Buffer Max Height (- for shift key consistency)
+nmap ew\| <C-w>\|  "Buffer Max Width
+nmap ew= <C-w>=    "Buffer Equal Size
+nmap ewR <C-w>R    "Buffer Rotate
+nmap ewT <C-w>T    "Buffer New Tab 
+nmap ewo <C-w>o    "Close All But Current
+nmap ew< <C-w>10<  "Decrease width 10 lines
+nmap ew> <C-w>10>  "Increase width 10 lines
+nmap ew- <C-w>10-  "Decrease height 10 lines (_ for shift key consistency)
+nmap ew+ <C-w>10+  "Increase height 10 lines
 
 " Settings
 set splitbelow
 set splitright
 set pastetoggle=<F2>    "Insert mode (Paste) toggle
 set wildmode=full
-nnoremap <F1> :set nonumber!<CR>    "Number toggle
 
 " Pick a colorscheme
 "" colorscheme mustang
