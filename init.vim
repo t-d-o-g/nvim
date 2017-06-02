@@ -18,21 +18,8 @@ call deoplete#enable()
 
 "" Key Remappings
 inoremap kj <Esc>
+nmap ew <C-w>
 nnoremap <F1> :set nonumber!<CR>    "Number toggle
-nmap ewh <C-w>h    "Buffer Left 
-nmap ewj <C-w>j    "Buffer Down
-nmap ewk <C-w>k    "Buffer Up
-nmap ewl <C-w>w    "Buffer Cycle Right
-nmap ew_ <C-w>_    "Buffer Max Height (- for shift key consistency)
-nmap ew\| <C-w>\|  "Buffer Max Width
-nmap ew= <C-w>=    "Buffer Equal Size
-nmap ewR <C-w>R    "Buffer Rotate
-nmap ewT <C-w>T    "Buffer New Tab 
-nmap ewo <C-w>o    "Close All But Current
-nmap ew< <C-w>10<  "Decrease width 10 lines
-nmap ew> <C-w>10>  "Increase width 10 lines
-nmap ew- <C-w>10-  "Decrease height 10 lines (_ for shift key consistency)
-nmap ew+ <C-w>10+  "Increase height 10 lines
 
 " Settings
 set splitbelow
