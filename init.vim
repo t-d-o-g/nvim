@@ -1,16 +1,16 @@
-call plug#begin('~/.config/nvim/plugged')
-Plug 'croaker/mustang-vim'
-Plug 'cocopon/iceberg.vim'
-Plug 'w0rp/ale'
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'tpope/vim-fugitive'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'janko-m/vim-test'
-Plug 'pangloss/vim-javascript'
-Plug 'moll/vim-node'
-Plug 'mklabs/split-term.vim'
+call plug#begin('~/.config/nvim/plugged')				" vim-plug plugin manager
+Plug 'croaker/mustang-vim' 						" mustang color theme
+Plug 'cocopon/iceberg.vim' 						" iceberg color theme
+Plug 'w0rp/ale'								" asnyc lint engine
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }	" fuzzy finder in Go
+Plug 'tpope/vim-fugitive'						" git wrapper
+Plug 'vim-airline/vim-airline'						" status/tabline
+Plug 'vim-airline/vim-airline-themes'					" vim-airline theme collection
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }		" async keyword completion
+Plug 'janko-m/vim-test'							" vim wrapper for running tests
+Plug 'pangloss/vim-javascript'						" js indentation & syntax
+Plug 'moll/vim-node'							" node tools and environment
+Plug 'mklabs/split-term.vim'						" utilities for neovim :terminal
 call plug#end()
 
 "" Enable code autocomplete
@@ -19,12 +19,12 @@ call deoplete#enable()
 "" Key Remappings
 inoremap kj <Esc>
 nmap ew <C-w>
-nnoremap <F1> :set nonumber!<CR>    "Number toggle
+nnoremap <F1> :set nonumber!<CR>
 
 " Settings
 set splitbelow
 set splitright
-set pastetoggle=<F2>    "Insert mode (Paste) toggle
+set pastetoggle=<F2>    						" Insert mode (Paste) toggle
 set wildmode=full
 
 " Pick a colorscheme
