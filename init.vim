@@ -1,7 +1,7 @@
 call plug#begin('~/.config/nvim/plugged')				" vim-plug plugin manager
 Plug 'croaker/mustang-vim' 						" mustang color theme
 Plug 'cocopon/iceberg.vim' 						" iceberg color theme
-Plug 'w0rp/ale'								" asnyc lint engine
+"Plug 'w0rp/ale'								" asnyc lint engine
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }	" fuzzy finder in Go
 Plug 'tpope/vim-fugitive'						" git wrapper
 Plug 'vim-airline/vim-airline'						" status/tabline
@@ -22,6 +22,7 @@ nmap ew <C-w>
 nnoremap <F1> :set nonumber!<CR>
 
 " Settings
+set shiftwidth=4
 set splitbelow
 set splitright
 set pastetoggle=<F2>    						" Insert mode (Paste) toggle
