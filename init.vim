@@ -27,6 +27,7 @@ set splitbelow
 set splitright
 set pastetoggle=<F2>    						" Insert mode (Paste) toggle
 set wildmode=full
+:au FocusGained * :redraw!  						" automatic redraw
 
 " Pick a colorscheme
 "" colorscheme mustang
