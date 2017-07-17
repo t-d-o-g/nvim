@@ -25,7 +25,7 @@ nnoremap <F1> :set nonumber!<CR>
 set tabstop=4
 set shiftwidth=4
 set expandtab
-set textwidth=80 "" use gqG at top of file to reformat
+set textwidth=80
 set splitbelow
 set splitright
 set pastetoggle=<F2>    						" Insert mode (Paste) toggle
