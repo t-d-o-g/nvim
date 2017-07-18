@@ -20,6 +20,7 @@ call deoplete#enable()
 inoremap kj <Esc>
 nmap ew <C-w>
 nnoremap <F1> :set nonumber!<CR>
+nnoremap <silent> <C-l> :nohl<CR><C-l>					" map no highlight to C-l
 
 " Settings
 set tabstop=4
